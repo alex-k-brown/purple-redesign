@@ -1,0 +1,85 @@
+#section-6 {
+	background: url(../img/mattress-buying.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 15% 60px;
+	text-align: center; 
+
+	h2 {
+		color: #4d306a;
+
+	}/*h2*/
+
+	p {
+		padding: 30px 7% 75px;
+		color: #4d306a;
+
+	}/*p*/
+
+	.buying-left, .buying-right, .vs {
+		display: inline-block;
+		vertical-align: top;
+
+		p {
+			padding: 0;
+			text-transform: uppercase;
+
+		}/*p*/
+	}/*buying-left, buying-right, vs*/
+
+	.buying-left, .buying-right {
+		width: 40%;
+		h3 {
+			font-family: Dupla Bold, sans-serif;
+			font-size: 30px;
+			text-transform: uppercase;
+
+		}/*h3*/
+	}/*buying-left, buying-right*/
+
+	.vs {
+		width: 7%;
+
+	}/*vs*/
+
+	.buying-left {
+		h3 {
+			color: #656b6d
+
+		}/*h3*/
+
+		p {
+			color: #656b6d;
+
+		}/*p*/
+
+		.costs {
+			padding: 75px 0 40px;
+
+		}/*costs*/
+
+		.total {
+			padding: 0 0 47px;
+
+		}/*total*/
+	}/*buying-left*/
+
+	.buying-right {
+
+		h3 {
+			color: #4d306a;
+
+		}/*h3*/
+
+		.costs {
+			padding: 140px 0 127px;
+
+		}/*costs*/
+	}/*buying-right*/
+
+	.green-button {
+		margin: 36px auto 0;
+
+	}/*green-button*/
+}/*section-6*/

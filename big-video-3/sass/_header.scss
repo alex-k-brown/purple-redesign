@@ -1,0 +1,115 @@
+#main-header {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	
+	.top-header {
+		background: #4b3077;
+		padding: 22px 15%;
+
+		.logo-image, .menu, .shop-button {
+			display: inline-block;
+			color: white;
+			vertical-align: top;
+			text-transform: uppercase;
+			font-family: Dupla, sans-serif;
+			font-size: 18px;
+
+		}/*logo-image, menu, shop-button*/
+
+		.logo-image {
+			width: 19%;
+		}/*logo-image*/
+
+		.down-arrow {
+			vertical-align: top;
+			width: 15px;
+			padding: 5px 0 0 2px;
+
+		}/*down-arrow*/
+
+		.phone {
+			font-family: Dupla Book, sans-serif;
+			font-size: 18px;
+			text-decoration: none;
+			float: right;
+			display: inline-block;
+			color: white;
+			padding: 20px 2% 0 0;
+
+		}/*phone*/
+
+		.menu {
+			width: 35%;
+			padding: 20px 3% 0;
+
+			li {
+				display: inline-block;
+				padding: 0 7%;
+				cursor: pointer;
+				font-family: Dupla Bold, sans-serif;
+				font-size: 18px;
+
+			}/*li*/
+		}/*menu*/
+
+		.shop-button {
+			text-decoration: none;
+			background: #74c044;
+			padding: 13px 0;
+			border-radius: 5px;
+			float: right;
+			margin: 11px 0 0 0;
+			width: 122px;
+			text-align: center;
+			font-size: 14px;
+			display: block;
+
+		}/*shop-button*/
+	}/*top-header*/
+
+	.bottom-header {
+		background: rgba(114,190,68, .9);
+		padding: 40px 12% 60px;
+		display: none;
+
+		a {
+			text-decoration: none;
+
+		}/*a*/
+
+		ul {
+			text-align: center;
+
+			.middle-item {
+				border-left: solid white 1px;
+				border-right: solid white 1px;
+
+			}/*middle-item*/
+
+			li {
+				width: 25%;
+				padding: 0 4%;
+				display: inline-block;
+
+				h5 {
+					color: white;
+					text-transform: uppercase;
+					text-decoration: none;
+
+				}/*h5*/
+
+				.cushion {
+					width: 40%;
+					padding: 22px 0 0 0;
+
+				}/*cushion*/
+
+				img {
+					width: 100%;
+					padding: 42px 0 0 0;
+				}/*img*/
+			}/*li*/
+		}/*ul*/
+	}/*bottom-header*/
+}/*header*/

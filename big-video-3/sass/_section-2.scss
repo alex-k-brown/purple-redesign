@@ -1,0 +1,42 @@
+#section-2 {
+	background: #e9eaeb;
+	padding: 40px 16% 50px;
+	text-align: center;
+
+	.quote-right, .quote-left, .review {
+		display: inline-block;
+
+	}/*quote-right, quote-left, review*/
+
+	.quote-right {
+		float: right;
+		padding: 124px 0 0;
+		
+	}/*quote-right*/
+
+	.quote-left {
+		float: left;
+
+	}/*quote-left*/
+
+	.review {
+		text-align: center;
+		margin: auto;
+
+		img {
+			padding: 10px 0 20px;
+
+		}/*img*/
+
+		h6 {
+			padding: 25px 0 10px;
+			color: #3b3163;
+
+		}/*h6*/
+
+		p {
+			color: #3b3163;
+
+		}/*p*/
+	}/*review*/
+}/*section-2*/

@@ -1,0 +1,825 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: Dupla Black;
+  src: url(../fonts/Dupla-Black.otf);
+}
+/*Dupla Black*/
+@font-face {
+  font-family: Dupla Bold;
+  src: url(../fonts/Dupla-Bold.otf);
+}
+/*Dupla Bold*/
+@font-face {
+  font-family: Dupla Book;
+  src: url(../fonts/Dupla-Book.otf);
+}
+/*Dupla Book*/
+@font-face {
+  font-family: Dupla Light;
+  src: url(../fonts/Dupla-Light.otf);
+}
+/*Dupla Light*/
+@font-face {
+  font-family: Dupla;
+  src: url(../fonts/Dupla.otf);
+}
+/*Dupla*/
+/* line 31, ../sass/_fonts.scss */
+h1, h2 {
+  font-family: Dupla Black, sans-serif !important;
+  font-size: 72px;
+}
+
+/*h1, h2*/
+/* line 37, ../sass/_fonts.scss */
+h3 {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/*h3*/
+/* line 44, ../sass/_fonts.scss */
+h5 {
+  font-family: Dupla, sans-serif;
+  font-size: 16px;
+}
+
+/*h5*/
+/* line 50, ../sass/_fonts.scss */
+h6 {
+  font-family: Dupla Book;
+  font-size: 18px;
+}
+
+/*h6*/
+/* line 56, ../sass/_fonts.scss */
+p {
+  font-family: 'Dupla Book', sans-serif;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+/*p*/
+/* line 1, ../sass/_buttons.scss */
+.green-button {
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Dupla', sans-serif;
+  font-size: 24px;
+  width: 227px;
+  padding: 15px 56px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #74c044;
+  display: block;
+}
+
+/*green-button*/
+/* line 1, ../sass/_header.scss */
+#main-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  /*top-header*/
+  /*bottom-header*/
+}
+/* line 6, ../sass/_header.scss */
+#main-header .top-header {
+  background: #4b3077;
+  padding: 22px 15%;
+  /*logo-image, menu, shop-button*/
+  /*logo-image*/
+  /*down-arrow*/
+  /*phone*/
+  /*menu*/
+  /*shop-button*/
+}
+/* line 10, ../sass/_header.scss */
+#main-header .top-header .logo-image, #main-header .top-header .menu, #main-header .top-header .shop-button {
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+  text-transform: uppercase;
+  font-family: Dupla, sans-serif;
+  font-size: 18px;
+}
+/* line 20, ../sass/_header.scss */
+#main-header .top-header .logo-image {
+  width: 19%;
+}
+/* line 24, ../sass/_header.scss */
+#main-header .top-header .down-arrow {
+  vertical-align: top;
+  width: 15px;
+  padding: 5px 0 0 2px;
+}
+/* line 31, ../sass/_header.scss */
+#main-header .top-header .phone {
+  font-family: Dupla Book, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  float: right;
+  display: inline-block;
+  color: white;
+  padding: 20px 2% 0 0;
+}
+/* line 42, ../sass/_header.scss */
+#main-header .top-header .menu {
+  width: 35%;
+  padding: 20px 3% 0;
+  /*li*/
+}
+/* line 46, ../sass/_header.scss */
+#main-header .top-header .menu li {
+  display: inline-block;
+  padding: 0 7%;
+  cursor: pointer;
+  font-family: Dupla Bold, sans-serif;
+  font-size: 18px;
+}
+/* line 56, ../sass/_header.scss */
+#main-header .top-header .shop-button {
+  text-decoration: none;
+  background: #74c044;
+  padding: 13px 0;
+  border-radius: 5px;
+  float: right;
+  margin: 11px 0 0 0;
+  width: 122px;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+}
+/* line 71, ../sass/_header.scss */
+#main-header .bottom-header {
+  background: rgba(114, 190, 68, 0.9);
+  padding: 40px 12% 60px;
+  display: none;
+  /*a*/
+  /*ul*/
+}
+/* line 76, ../sass/_header.scss */
+#main-header .bottom-header a {
+  text-decoration: none;
+}
+/* line 81, ../sass/_header.scss */
+#main-header .bottom-header ul {
+  text-align: center;
+  /*middle-item*/
+  /*li*/
+}
+/* line 84, ../sass/_header.scss */
+#main-header .bottom-header ul .middle-item {
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+}
+/* line 90, ../sass/_header.scss */
+#main-header .bottom-header ul li {
+  width: 25%;
+  padding: 0 4%;
+  display: inline-block;
+  /*h5*/
+  /*cushion*/
+  /*img*/
+}
+/* line 95, ../sass/_header.scss */
+#main-header .bottom-header ul li h5 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 102, ../sass/_header.scss */
+#main-header .bottom-header ul li .cushion {
+  width: 40%;
+  padding: 22px 0 0 0;
+}
+/* line 108, ../sass/_header.scss */
+#main-header .bottom-header ul li img {
+  width: 100%;
+  padding: 42px 0 0 0;
+}
+
+/*header*/
+/* line 1, ../sass/_section-1.scss */
+#section-1 {
+  padding: 186px 15% 65px;
+  /*h1*/
+  /*small-video*/
+  /*check-list*/
+  /*h2*/
+  /*white-h2*/
+  /*full-video*/
+  /*p*/
+  /*video-2-button*/
+  /*animation-list*/
+}
+/* line 4, ../sass/_section-1.scss */
+#section-1 h1 {
+  color: white;
+  text-align: center;
+}
+/* line 10, ../sass/_section-1.scss */
+#section-1 .small-video {
+  width: 50%;
+  display: inline-block;
+  padding: 75px 2% 110px 0;
+  height: 400px;
+  vertical-align: top;
+}
+/* line 19, ../sass/_section-1.scss */
+#section-1 .check-list {
+  vertical-align: top;
+  width: 47%;
+  display: inline-block;
+  padding: 75px 0 110px;
+  /*button-li*/
+  /*li*/
+}
+/* line 25, ../sass/_section-1.scss */
+#section-1 .check-list .button-li {
+  padding: 40px 0 0 0;
+}
+/* line 30, ../sass/_section-1.scss */
+#section-1 .check-list li {
+  /*img*/
+  /*h3*/
+  /*light-h3*/
+}
+/* line 32, ../sass/_section-1.scss */
+#section-1 .check-list li img {
+  width: 32px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+/* line 39, ../sass/_section-1.scss */
+#section-1 .check-list li h3 {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  padding: 0 0 30px 0;
+}
+/* line 47, ../sass/_section-1.scss */
+#section-1 .check-list li .light-h3 {
+  font-weight: 100;
+}
+/* line 53, ../sass/_section-1.scss */
+#section-1 h2 {
+  color: #9aa7af;
+  text-align: center;
+}
+/* line 59, ../sass/_section-1.scss */
+#section-1 .white-h2 {
+  color: white;
+  padding: 10px 0 0 0;
+}
+/* line 65, ../sass/_section-1.scss */
+#section-1 .full-video {
+  width: 87%;
+  text-align: center;
+  height: 600px;
+  margin: 30px 6.5% 40px;
+}
+/* line 73, ../sass/_section-1.scss */
+#section-1 p {
+  color: white;
+  text-align: center;
+  width: 87%;
+  margin: auto;
+}
+/* line 81, ../sass/_section-1.scss */
+#section-1 .video-2-button {
+  margin: 36px auto 84px;
+  text-align: center;
+  display: block;
+}
+/* line 88, ../sass/_section-1.scss */
+#section-1 .animation-list {
+  height: 1000px;
+  /*li*/
+}
+/* line 91, ../sass/_section-1.scss */
+#section-1 .animation-list li {
+  width: 47%;
+  padding: 0 1% 70px;
+  display: inline-block;
+  /*img*/
+  /*h3*/
+  /*p*/
+  /*person*/
+}
+/* line 96, ../sass/_section-1.scss */
+#section-1 .animation-list li img {
+  width: 100%;
+}
+/* line 100, ../sass/_section-1.scss */
+#section-1 .animation-list li h3 {
+  color: #2785b9;
+  text-align: center;
+}
+/* line 106, ../sass/_section-1.scss */
+#section-1 .animation-list li p {
+  padding: 12px 0 0 0;
+}
+/* line 111, ../sass/_section-1.scss */
+#section-1 .animation-list li .person {
+  padding: 30px 0 0 0;
+  position: relative;
+  width: 300px;
+}
+/* line 118, ../sass/_section-1.scss */
+#section-1 .animation-list li .bed {
+  position: relative;
+  width: 300px;
+  top: 400px;
+}
+
+/*section-1*/
+/* line 1, ../sass/_section-2.scss */
+#section-2 {
+  background: #e9eaeb;
+  padding: 40px 16% 50px;
+  text-align: center;
+  /*quote-right, quote-left, review*/
+  /*quote-right*/
+  /*quote-left*/
+  /*review*/
+}
+/* line 6, ../sass/_section-2.scss */
+#section-2 .quote-right, #section-2 .quote-left, #section-2 .review {
+  display: inline-block;
+}
+/* line 11, ../sass/_section-2.scss */
+#section-2 .quote-right {
+  float: right;
+  padding: 124px 0 0;
+}
+/* line 17, ../sass/_section-2.scss */
+#section-2 .quote-left {
+  float: left;
+}
+/* line 22, ../sass/_section-2.scss */
+#section-2 .review {
+  text-align: center;
+  margin: auto;
+  /*img*/
+  /*h6*/
+  /*p*/
+}
+/* line 26, ../sass/_section-2.scss */
+#section-2 .review img {
+  padding: 10px 0 20px;
+}
+/* line 31, ../sass/_section-2.scss */
+#section-2 .review h6 {
+  padding: 25px 0 10px;
+  color: #3b3163;
+}
+/* line 37, ../sass/_section-2.scss */
+#section-2 .review p {
+  color: #3b3163;
+}
+
+/*section-2*/
+/* line 1, ../sass/_section-3.scss */
+#section-3 {
+  padding: 95px 15% 105px;
+  text-align: center;
+  /*h2*/
+  /*h2-light*/
+  /*animation-text*/
+  /*animations*/
+  /*green-button*/
+  /*review*/
+}
+/* line 5, ../sass/_section-3.scss */
+#section-3 h2 {
+  color: #99a7af;
+}
+/* line 10, ../sass/_section-3.scss */
+#section-3 .h2-light {
+  color: white;
+  padding: 0 0 95px;
+}
+/* line 16, ../sass/_section-3.scss */
+#section-3 .animation-text {
+  padding: 0 0 30px;
+  /*li*/
+}
+/* line 19, ../sass/_section-3.scss */
+#section-3 .animation-text li {
+  display: inline-block;
+  padding: 0 2%;
+  width: 40%;
+  text-align: center;
+  /*p*/
+  /*h3*/
+}
+/* line 25, ../sass/_section-3.scss */
+#section-3 .animation-text li p {
+  color: white;
+}
+/* line 30, ../sass/_section-3.scss */
+#section-3 .animation-text li h3 {
+  color: #2b82b6;
+  padding: 0 0 10px;
+}
+/* line 38, ../sass/_section-3.scss */
+#section-3 .animations {
+  text-align: center;
+  padding: 0 0 72px;
+  /*li*/
+}
+/* line 42, ../sass/_section-3.scss */
+#section-3 .animations li {
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+  padding: 0 2%;
+  /*img*/
+  /*top-animation*/
+  /*bottom-animation*/
+}
+/* line 48, ../sass/_section-3.scss */
+#section-3 .animations li img {
+  display: block;
+}
+/* line 53, ../sass/_section-3.scss */
+#section-3 .animations li .top-animation {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  z-index: 100;
+}
+/* line 61, ../sass/_section-3.scss */
+#section-3 .animations li .bottom-animation {
+  width: 100%;
+  margin: -20px 0 0 0;
+  position: relative;
+}
+/* line 69, ../sass/_section-3.scss */
+#section-3 .green-button {
+  margin: 0 auto 35px;
+}
+/* line 74, ../sass/_section-3.scss */
+#section-3 .review {
+  /*p*/
+  /*h6*/
+}
+/* line 76, ../sass/_section-3.scss */
+#section-3 .review p {
+  color: white;
+  padding: 18px 2%;
+}
+/* line 82, ../sass/_section-3.scss */
+#section-3 .review h6 {
+  color: white;
+}
+
+/*section-3*/
+/* line 1, ../sass/_section-4.scss */
+#section-4 {
+  padding: 115px 15% 100px;
+  background: url("../img/sleeping-woman.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  /*h2*/
+  /*purple-h2*/
+  /*h3*/
+  /*bold*/
+  /*green-button*/
+  /*review*/
+}
+/* line 9, ../sass/_section-4.scss */
+#section-4 h2 {
+  color: #99a7af;
+}
+/* line 14, ../sass/_section-4.scss */
+#section-4 .purple-h2 {
+  color: #4d306a;
+}
+/* line 19, ../sass/_section-4.scss */
+#section-4 h3 {
+  font-family: Dupla Book, sans-serif;
+  font-size: 36px;
+  padding: 75px 2% 0;
+  margin: auto;
+  color: #3e484d;
+}
+/* line 28, ../sass/_section-4.scss */
+#section-4 .bold {
+  font-family: Dupla Bold;
+  padding: 30px 0 45px;
+}
+/* line 33, ../sass/_section-4.scss */
+#section-4 .green-button {
+  margin: auto;
+}
+/* line 38, ../sass/_section-4.scss */
+#section-4 .review {
+  padding: 45px 0 0 0;
+  /*img*/
+  /*p*/
+  /*h6*/
+}
+/* line 41, ../sass/_section-4.scss */
+#section-4 .review img {
+  padding: 0 0 20px;
+}
+/* line 46, ../sass/_section-4.scss */
+#section-4 .review p {
+  padding: 0 7% 25px;
+  color: #3e484d;
+}
+/* line 52, ../sass/_section-4.scss */
+#section-4 .review h6 {
+  color: #3e484d;
+}
+
+/*section-4*/
+/* line 1, ../sass/_section-5.scss */
+#section-5 {
+  padding: 120px 15% 85px;
+  text-align: center;
+  /*h2*/
+  /*pie-chart*/
+  /*pie-chart-text*/
+  /*h3*/
+  /*light*/
+  /*review*/
+}
+/* line 5, ../sass/_section-5.scss */
+#section-5 h2 {
+  color: white;
+}
+/* line 10, ../sass/_section-5.scss */
+#section-5 .pie-chart {
+  padding: 82px 3% 63px;
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 18, ../sass/_section-5.scss */
+#section-5 .pie-chart-text {
+  padding: 82px 5% 63px;
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+/* line 27, ../sass/_section-5.scss */
+#section-5 h3 {
+  font-family: Dupla Bold, sans-serif;
+  font-size: 36px;
+  color: #99a7af;
+  line-height: 44px;
+  text-align: left;
+  padding: 20px 0 60px;
+}
+/* line 37, ../sass/_section-5.scss */
+#section-5 .light {
+  color: white;
+  font-family: Dupla, sans-serif;
+}
+/* line 43, ../sass/_section-5.scss */
+#section-5 .review {
+  /*p*/
+  /*h6*/
+}
+/* line 44, ../sass/_section-5.scss */
+#section-5 .review p {
+  color: white;
+  padding: 20px 10% 25px;
+}
+/* line 50, ../sass/_section-5.scss */
+#section-5 .review h6 {
+  color: white;
+}
+
+/*section-5*/
+/* line 1, ../sass/_section-6.scss */
+#section-6 {
+  background: url(../img/mattress-buying.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 15% 60px;
+  text-align: center;
+  /*h2*/
+  /*p*/
+  /*buying-left, buying-right, vs*/
+  /*buying-left, buying-right*/
+  /*vs*/
+  /*buying-left*/
+  /*buying-right*/
+  /*green-button*/
+}
+/* line 9, ../sass/_section-6.scss */
+#section-6 h2 {
+  color: #4d306a;
+}
+/* line 14, ../sass/_section-6.scss */
+#section-6 p {
+  padding: 30px 7% 75px;
+  color: #4d306a;
+}
+/* line 20, ../sass/_section-6.scss */
+#section-6 .buying-left, #section-6 .buying-right, #section-6 .vs {
+  display: inline-block;
+  vertical-align: top;
+  /*p*/
+}
+/* line 24, ../sass/_section-6.scss */
+#section-6 .buying-left p, #section-6 .buying-right p, #section-6 .vs p {
+  padding: 0;
+  text-transform: uppercase;
+}
+/* line 31, ../sass/_section-6.scss */
+#section-6 .buying-left, #section-6 .buying-right {
+  width: 40%;
+  /*h3*/
+}
+/* line 33, ../sass/_section-6.scss */
+#section-6 .buying-left h3, #section-6 .buying-right h3 {
+  font-family: Dupla Bold, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+/* line 41, ../sass/_section-6.scss */
+#section-6 .vs {
+  width: 7%;
+}
+/* line 46, ../sass/_section-6.scss */
+#section-6 .buying-left {
+  /*h3*/
+  /*p*/
+  /*costs*/
+  /*total*/
+}
+/* line 47, ../sass/_section-6.scss */
+#section-6 .buying-left h3 {
+  color: #656b6d;
+}
+/* line 52, ../sass/_section-6.scss */
+#section-6 .buying-left p {
+  color: #656b6d;
+}
+/* line 57, ../sass/_section-6.scss */
+#section-6 .buying-left .costs {
+  padding: 75px 0 40px;
+}
+/* line 62, ../sass/_section-6.scss */
+#section-6 .buying-left .total {
+  padding: 0 0 47px;
+}
+/* line 68, ../sass/_section-6.scss */
+#section-6 .buying-right {
+  /*h3*/
+  /*costs*/
+}
+/* line 70, ../sass/_section-6.scss */
+#section-6 .buying-right h3 {
+  color: #4d306a;
+}
+/* line 75, ../sass/_section-6.scss */
+#section-6 .buying-right .costs {
+  padding: 140px 0 127px;
+}
+/* line 81, ../sass/_section-6.scss */
+#section-6 .green-button {
+  margin: 36px auto 0;
+}
+
+/*section-6*/
+/* line 1, ../sass/_section-7.scss */
+#section-7 {
+  padding: 85px 15% 70px;
+  text-align: center;
+  /*h2*/
+  /*h2-light*/
+  /*goldilocks*/
+  /*p*/
+  /*green-button*/
+  /*review*/
+}
+/* line 5, ../sass/_section-7.scss */
+#section-7 h2 {
+  color: #99a7af;
+}
+/* line 10, ../sass/_section-7.scss */
+#section-7 .h2-light {
+  color: white;
+}
+/* line 15, ../sass/_section-7.scss */
+#section-7 .goldilocks {
+  padding: 50px 0;
+}
+/* line 19, ../sass/_section-7.scss */
+#section-7 p {
+  color: white;
+  padding: 0 10% 40px;
+}
+/* line 25, ../sass/_section-7.scss */
+#section-7 .green-button {
+  margin: 5px auto;
+}
+/* line 30, ../sass/_section-7.scss */
+#section-7 .review {
+  /*h6*/
+  /*p*/
+}
+/* line 32, ../sass/_section-7.scss */
+#section-7 .review h6 {
+  color: white;
+}
+/* line 36, ../sass/_section-7.scss */
+#section-7 .review p {
+  padding: 20px 0;
+}
+
+/*section-7*/
+/* line 1, ../sass/_section-8.scss */
+#section-8 {
+  height: 500px;
+  width: 100%;
+  overflow: scroll;
+  /*cloud-background*/
+}
+/* line 6, ../sass/_section-8.scss */
+#section-8 .cloud-background {
+  background: url("../img/cloud-bg.jpg");
+  height: 600px;
+}
+
+/*section-8*/

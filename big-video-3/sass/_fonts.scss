@@ -1,0 +1,61 @@
+@font-face {
+	font-family: Dupla Black;
+	src: url(../fonts/Dupla-Black.otf);
+
+}/*Dupla Black*/
+
+@font-face {
+	font-family: Dupla Bold;
+	src: url(../fonts/Dupla-Bold.otf);
+
+}/*Dupla Bold*/
+
+@font-face {
+	font-family: Dupla Book;
+	src: url(../fonts/Dupla-Book.otf);
+
+}/*Dupla Book*/
+
+@font-face {
+	font-family: Dupla Light;
+	src: url(../fonts/Dupla-Light.otf);
+
+}/*Dupla Light*/
+
+@font-face {
+	font-family: Dupla;
+	src: url(../fonts/Dupla.otf);
+
+}/*Dupla*/
+
+h1, h2 {
+	font-family: Dupla Black, sans-serif !important;
+	font-size: 72px;
+
+}/*h1, h2*/
+
+h3 {
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+
+}/*h3*/
+
+h5 {
+	font-family: Dupla, sans-serif;
+	font-size: 16px;
+
+}/*h5*/
+
+h6 {
+	font-family: Dupla Book;
+	font-size: 18px;
+
+}/*h6*/
+
+p {
+	font-family: 'Dupla Book', sans-serif;
+	font-size: 24px;
+	line-height: 27px;
+	
+}/*p*/
